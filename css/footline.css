@@ -1,0 +1,15 @@
+.footline{
+  display: flex;
+  flex-direction: column;
+  grid-gap:10px;
+  text-align: center;
+}
+
+#dev{
+  font-size:15px;
+  color:#bbb;
+}
+#techs{
+  font-size:13px;
+  color: #aaa;
+}

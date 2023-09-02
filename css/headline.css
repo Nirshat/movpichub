@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.site-title-box{
+  text-align: center;
+}
+
+.site-title-box a{
+  text-decoration: none;
+  color:#ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subtitle{
+  color:#a0a0a0;
+  font-size:14px;
+  font-weight:100;
+}
+
+@media only screen and (min-width:1000px){
+  .site-title-box{
+    width:80%;
+  }
+}
