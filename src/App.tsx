@@ -8,53 +8,75 @@ import FootLine from "./components/FootLine";
 const App = () => {
   const sampleTest = [
     {
-      Title: "The Avengers",
-      Year: "2012",
-      imdbID: "tt0848228",
-      Type: "movie",
-      Poster:
-        "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "Title": "Kung Fu Panda",
+      "Year": "2008",
+      "imdbID": "tt0441773",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODJkZTZhMWItMDI3Yy00ZWZlLTk4NjQtOTI1ZjU5NjBjZTVjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
     },
     {
-      Title: "Avengers: Endgame",
-      Year: "2019",
-      imdbID: "tt4154796",
-      Type: "movie",
-      Poster:
-        "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+        "Title": "Kung Fu Panda 2",
+        "Year": "2011",
+        "imdbID": "tt1302011",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYzQ0ZWIxZjAtYWI3Yy00MGM0LWFjOGYtNzcyYThiOTA3ODI1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"
     },
     {
-      Title: "Avengers: Infinity War",
-      Year: "2018",
-      imdbID: "tt4154756",
-      Type: "movie",
-      Poster:
-        "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+        "Title": "Kung Fu Panda 3",
+        "Year": "2016",
+        "imdbID": "tt2267968",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzgxNjg2M15BMl5BanBnXkFtZTgwMTY1NDI1NjE@._V1_SX300.jpg"
     },
     {
-      Title: "Avengers: Age of Ultron",
-      Year: "2015",
-      imdbID: "tt2395427",
-      Type: "movie",
-      Poster:
-        "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
+        "Title": "Kung Fu Panda: Secrets of the Furious Five",
+        "Year": "2008",
+        "imdbID": "tt1287845",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjQwMWNmYWUtY2E5NS00OTlkLWI2Y2MtNzhjZDUyYmZhZDVjXkEyXkFqcGdeQXVyNjc2MjYzMTY@._V1_SX300.jpg"
     },
     {
-      Title: "The Avengers",
-      Year: "1998",
-      imdbID: "tt0118661",
-      Type: "movie",
-      Poster:
-        "https://m.media-amazon.com/images/M/MV5BYWE1NTdjOWQtYTQ2Ny00Nzc5LWExYzMtNmRlOThmOTE2N2I4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+        "Title": "Kung Fu Panda: Legends of Awesomeness",
+        "Year": "2011–2016",
+        "imdbID": "tt1545214",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZmMwNDktZTQyNi00MmI3LTkxZGUtYjEzYjM0ODgyNmU2XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_SX300.jpg"
     },
     {
-      Title: "Avengers Assemble",
-      Year: "2012–2019",
-      imdbID: "tt2455546",
-      Type: "series",
-      Poster:
-        "https://m.media-amazon.com/images/M/MV5BMTY0NTUyMDQwOV5BMl5BanBnXkFtZTgwNjAwMTA0MDE@._V1_SX300.jpg",
+        "Title": "Kung Fu Panda Holiday",
+        "Year": "2010",
+        "imdbID": "tt1702433",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDg4YTg2MDktYjBmMi00ZTE5LTliZTktNGZmN2JkYmM0YzEwXkEyXkFqcGdeQXVyODMxNzcyNDI@._V1_SX300.jpg"
     },
+    {
+        "Title": "Kung Fu Panda: Secrets of the Masters",
+        "Year": "2011",
+        "imdbID": "tt1980162",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjZmMWU3NDgtYTQ0MC00YzdlLTg0YWUtMDRkMTVlMzhhYTRlXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Kung Fu Panda: Secrets of the Scroll",
+        "Year": "2016",
+        "imdbID": "tt5513770",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTA2ZmJjNDUtOWJjZC00ZWY5LTg1MGUtODMzODVkZmIyYTE1XkEyXkFqcGdeQXVyNjIzODI5OTQ@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Kung Fu Panda: The Dragon Knight",
+        "Year": "2022–",
+        "imdbID": "tt18783984",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOGE1MWRiYzctYjQ3MC00YWI1LTg1MTgtMjUwYzRmMzI0NGIwXkEyXkFqcGdeQXVyMTQ3NDcxMzg4._V1_SX300.jpg"
+    },
+    {
+        "Title": "Kung Fu Panda: The Paws of Destiny",
+        "Year": "2018–2019",
+        "imdbID": "tt8271176",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjBmYWMwYzMtZTRkMi00MjRhLTk3MmItZTkzYmNiYzdlMjhiXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg"
+    }
   ];
 
   const [search, setSearch] = useState('');
